@@ -1,13 +1,3 @@
-/*Design Project 2 - Group 17
- * Computational Methods for Image and Shape Recognition
- * Abhijeet Kalyan
- * Dady Coulibaly
- * Ruofan Wu
- * Primary program logic class, containing: 
- * Utility methods
- * Depth map
- * Calls to edge and hough classes
- */
 package vision;
 
 import java.awt.Color;
@@ -26,7 +16,7 @@ import java.io.InputStream;
 
 import javax.imageio.ImageIO;
 
-public class Main {
+public class Logic {
 
 	public static void main(String[] args) throws IOException {
 		BufferedImage dep_image = null;
